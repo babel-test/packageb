@@ -1,0 +1,9 @@
+[Package]
+name          = "PackageB"
+version       = "0.1.0"
+author        = "Test"
+description   = "Test"
+license       = "MIT"
+
+[Deps]
+Requires: "nimrod >= 0.9.2, PackageA 0.2"
